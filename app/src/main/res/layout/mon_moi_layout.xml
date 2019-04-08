@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgMonMoi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#009700"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/ccccc"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="#009700"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="Các Món Ăn"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listKeHoach"
+        android:layout_width="fill_parent"
+        android:layout_height="341dp"
+        android:layout_weight="1.06"
+        android:cacheColorHint="#00000000"
+        android:padding="10dp" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btThemMonAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nenxanh"
+            android:text="Thêm món ăn" />
+
+    </LinearLayout>
+
+</LinearLayout>

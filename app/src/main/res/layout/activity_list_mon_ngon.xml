@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#ffffff"
+     >
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/rlTop"
+        android:layout_width="match_parent"
+        android:background="#009933"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:onClick="onClickBack"
+            android:background="@drawable/left_arrow_focus"
+            android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/lvMonNgon"
+android:layout_below="@+id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</RelativeLayout>
